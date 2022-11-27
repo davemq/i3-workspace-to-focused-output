@@ -1,7 +1,9 @@
 # i3-workspace-to-focused-output
 Move an i3 workspace to the focused output.
 
-The i3ipc library used by this code uses `asyncio`. I'm not very familiar with
+Most of the documentation I found about i3ipc uses `asyncio`, so I implemented
+this code using `asyncio`. It turns out that you can use i3ipc without
+`asyncio`, but at this point the code is written. I'm not very familiar with
 the ins and outs of asyncio so my code may need improvement and I welcome
 pointers and tips about it.
 
